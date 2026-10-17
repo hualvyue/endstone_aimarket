@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-aimarket"
+version = "1.4.2"
+description = "aimarket —— 一体化经济内核与按钮商店（自建经济系统，零第三方依赖）"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["endstone", "minecraft", "bedrock", "economy", "shop"]
+# 刻意留空：运行期只用 Python 标准库 + Endstone 自身，不引入任何第三方包
+dependencies = []
+
+[project.entry-points."endstone"]
+aimarket = "endstone_aimarket:AimarketPlugin"
+
+[tool.hatch.build.targets.wheel]
+packages = ["endstone_aimarket"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/endstone_aimarket",
+    "/README.md",
+    "/LICENSE",
+    "/pyproject.toml",
+]

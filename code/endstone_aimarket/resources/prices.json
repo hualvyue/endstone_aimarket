@@ -1,0 +1,1226 @@
+{
+  "_说明": "官方指导价表。buy = 玩家从这里买入的价格，sell = 玩家卖回来的回收价。单位是金币。低于 0 或缺失的会被忽略；只写一边时另一边自动按 50% 推导。回收价高于或等于买入价时该物品的回收会自动暂停，避免无限套利。",
+  "_分类": "categories 只影响 UI 里的分组顺序与显示名，物品用 category 字段挂上去。",
+  "categories": [
+    {
+      "key": "mineral",
+      "name": "矿物与宝石"
+    },
+    {
+      "key": "ore_block",
+      "name": "矿物块"
+    },
+    {
+      "key": "tool",
+      "name": "工具与武器"
+    },
+    {
+      "key": "armor",
+      "name": "防具"
+    },
+    {
+      "key": "food",
+      "name": "食物"
+    },
+    {
+      "key": "farm",
+      "name": "农业与种植"
+    },
+    {
+      "key": "brew",
+      "name": "炼药与酿造"
+    },
+    {
+      "key": "redstone",
+      "name": "红石与机械"
+    },
+    {
+      "key": "building",
+      "name": "建筑材料"
+    },
+    {
+      "key": "deco",
+      "name": "装饰与杂项"
+    },
+    {
+      "key": "rare",
+      "name": "稀有与特殊"
+    },
+    {
+      "key": "ocean",
+      "name": "海洋相关"
+    },
+    {
+      "key": "nether",
+      "name": "下界相关"
+    },
+    {
+      "key": "end",
+      "name": "末地相关"
+    },
+    {
+      "key": "dye",
+      "name": "染料"
+    }
+  ],
+  "items": {
+    "minecraft:diamond": {
+      "name": "钻石",
+      "category": "mineral",
+      "buy": 1000,
+      "sell": 400
+    },
+    "minecraft:iron_ingot": {
+      "name": "铁锭",
+      "category": "mineral",
+      "buy": 20,
+      "sell": 8
+    },
+    "minecraft:gold_ingot": {
+      "name": "金锭",
+      "category": "mineral",
+      "buy": 100,
+      "sell": 40
+    },
+    "minecraft:coal": {
+      "name": "煤炭",
+      "category": "mineral",
+      "buy": 4,
+      "sell": 1.6
+    },
+    "minecraft:charcoal": {
+      "name": "木炭",
+      "category": "mineral",
+      "buy": 4,
+      "sell": 1.6
+    },
+    "minecraft:emerald": {
+      "name": "绿宝石",
+      "category": "mineral",
+      "buy": 800,
+      "sell": 320
+    },
+    "minecraft:lapis_lazuli": {
+      "name": "青金石",
+      "category": "mineral",
+      "buy": 30,
+      "sell": 12
+    },
+    "minecraft:redstone": {
+      "name": "红石",
+      "category": "mineral",
+      "buy": 6,
+      "sell": 2.4
+    },
+    "minecraft:quartz": {
+      "name": "下界石英",
+      "category": "mineral",
+      "buy": 8,
+      "sell": 3.2
+    },
+    "minecraft:copper_ingot": {
+      "name": "铜锭",
+      "category": "mineral",
+      "buy": 5,
+      "sell": 2
+    },
+    "minecraft:amethyst_shard": {
+      "name": "紫水晶碎片",
+      "category": "mineral",
+      "buy": 12,
+      "sell": 4.8
+    },
+    "minecraft:netherite_scrap": {
+      "name": "下界合金碎片",
+      "category": "mineral",
+      "buy": 3000,
+      "sell": 1200
+    },
+    "minecraft:netherite_ingot": {
+      "name": "下界合金锭",
+      "category": "mineral",
+      "buy": 10000,
+      "sell": 4000
+    },
+    "minecraft:ancient_debris": {
+      "name": "远古残骸",
+      "category": "mineral",
+      "buy": 6000,
+      "sell": 2400
+    },
+    "minecraft:diamond_block": {
+      "name": "钻石块",
+      "category": "ore_block",
+      "buy": 9000,
+      "sell": 3600
+    },
+    "minecraft:iron_block": {
+      "name": "铁块",
+      "category": "ore_block",
+      "buy": 180,
+      "sell": 72
+    },
+    "minecraft:gold_block": {
+      "name": "金块",
+      "category": "ore_block",
+      "buy": 900,
+      "sell": 360
+    },
+    "minecraft:emerald_block": {
+      "name": "绿宝石块",
+      "category": "ore_block",
+      "buy": 7200,
+      "sell": 2880
+    },
+    "minecraft:lapis_block": {
+      "name": "青金石块",
+      "category": "ore_block",
+      "buy": 270,
+      "sell": 108
+    },
+    "minecraft:redstone_block": {
+      "name": "红石块",
+      "category": "ore_block",
+      "buy": 54,
+      "sell": 21.6
+    },
+    "minecraft:coal_block": {
+      "name": "煤炭块",
+      "category": "ore_block",
+      "buy": 36,
+      "sell": 14.4
+    },
+    "minecraft:copper_block": {
+      "name": "铜块",
+      "category": "ore_block",
+      "buy": 45,
+      "sell": 18
+    },
+    "minecraft:netherite_block": {
+      "name": "下界合金块",
+      "category": "ore_block",
+      "buy": 90000,
+      "sell": 36000
+    },
+    "minecraft:obsidian": {
+      "name": "黑曜石",
+      "category": "ore_block",
+      "buy": 10,
+      "sell": 4
+    },
+    "minecraft:crying_obsidian": {
+      "name": "哭泣的黑曜石",
+      "category": "ore_block",
+      "buy": 40,
+      "sell": 16
+    },
+    "minecraft:diamond_sword": {
+      "name": "钻石剑",
+      "category": "tool",
+      "buy": 2500,
+      "sell": 800
+    },
+    "minecraft:diamond_pickaxe": {
+      "name": "钻石镐",
+      "category": "tool",
+      "buy": 3000,
+      "sell": 1000
+    },
+    "minecraft:diamond_axe": {
+      "name": "钻石斧",
+      "category": "tool",
+      "buy": 3000,
+      "sell": 1000
+    },
+    "minecraft:diamond_shovel": {
+      "name": "钻石锹",
+      "category": "tool",
+      "buy": 1200,
+      "sell": 400
+    },
+    "minecraft:iron_sword": {
+      "name": "铁剑",
+      "category": "tool",
+      "buy": 50,
+      "sell": 20
+    },
+    "minecraft:iron_pickaxe": {
+      "name": "铁镐",
+      "category": "tool",
+      "buy": 60,
+      "sell": 24
+    },
+    "minecraft:iron_axe": {
+      "name": "铁斧",
+      "category": "tool",
+      "buy": 60,
+      "sell": 24
+    },
+    "minecraft:iron_shovel": {
+      "name": "铁锹",
+      "category": "tool",
+      "buy": 30,
+      "sell": 12
+    },
+    "minecraft:stone_sword": {
+      "name": "石剑",
+      "category": "tool",
+      "buy": 10,
+      "sell": 4
+    },
+    "minecraft:stone_pickaxe": {
+      "name": "石镐",
+      "category": "tool",
+      "buy": 10,
+      "sell": 4
+    },
+    "minecraft:wooden_sword": {
+      "name": "木剑",
+      "category": "tool",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:wooden_pickaxe": {
+      "name": "木镐",
+      "category": "tool",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:bow": {
+      "name": "弓",
+      "category": "tool",
+      "buy": 60,
+      "sell": 24
+    },
+    "minecraft:crossbow": {
+      "name": "弩",
+      "category": "tool",
+      "buy": 100,
+      "sell": 40
+    },
+    "minecraft:trident": {
+      "name": "三叉戟",
+      "category": "tool",
+      "buy": 8000,
+      "sell": 3200
+    },
+    "minecraft:shears": {
+      "name": "剪刀",
+      "category": "tool",
+      "buy": 20,
+      "sell": 8
+    },
+    "minecraft:flint_and_steel": {
+      "name": "打火石",
+      "category": "tool",
+      "buy": 20,
+      "sell": 8
+    },
+    "minecraft:fishing_rod": {
+      "name": "钓鱼竿",
+      "category": "tool",
+      "buy": 30,
+      "sell": 12
+    },
+    "minecraft:elytra": {
+      "name": "鞘翅",
+      "category": "tool",
+      "buy": 20000,
+      "sell": 8000
+    },
+    "minecraft:diamond_helmet": {
+      "name": "钻石头盔",
+      "category": "armor",
+      "buy": 6000,
+      "sell": 2400
+    },
+    "minecraft:diamond_chestplate": {
+      "name": "钻石胸甲",
+      "category": "armor",
+      "buy": 10000,
+      "sell": 4000
+    },
+    "minecraft:diamond_leggings": {
+      "name": "钻石护腿",
+      "category": "armor",
+      "buy": 8500,
+      "sell": 3400
+    },
+    "minecraft:diamond_boots": {
+      "name": "钻石靴子",
+      "category": "armor",
+      "buy": 5000,
+      "sell": 2000
+    },
+    "minecraft:iron_helmet": {
+      "name": "铁头盔",
+      "category": "armor",
+      "buy": 100,
+      "sell": 40
+    },
+    "minecraft:iron_chestplate": {
+      "name": "铁胸甲",
+      "category": "armor",
+      "buy": 160,
+      "sell": 64
+    },
+    "minecraft:iron_leggings": {
+      "name": "铁护腿",
+      "category": "armor",
+      "buy": 140,
+      "sell": 56
+    },
+    "minecraft:iron_boots": {
+      "name": "铁靴子",
+      "category": "armor",
+      "buy": 80,
+      "sell": 32
+    },
+    "minecraft:netherite_helmet": {
+      "name": "下界合金头盔",
+      "category": "armor",
+      "buy": 15000,
+      "sell": 6000
+    },
+    "minecraft:netherite_chestplate": {
+      "name": "下界合金胸甲",
+      "category": "armor",
+      "buy": 25000,
+      "sell": 10000
+    },
+    "minecraft:netherite_leggings": {
+      "name": "下界合金护腿",
+      "category": "armor",
+      "buy": 20000,
+      "sell": 8000
+    },
+    "minecraft:netherite_boots": {
+      "name": "下界合金靴子",
+      "category": "armor",
+      "buy": 12000,
+      "sell": 4800
+    },
+    "minecraft:shield": {
+      "name": "盾牌",
+      "category": "armor",
+      "buy": 60,
+      "sell": 24
+    },
+    "minecraft:turtle_helmet": {
+      "name": "海龟壳",
+      "category": "armor",
+      "buy": 400,
+      "sell": 160
+    },
+    "minecraft:apple": {
+      "name": "苹果",
+      "category": "food",
+      "buy": 3,
+      "sell": 1.2
+    },
+    "minecraft:golden_apple": {
+      "name": "金苹果",
+      "category": "food",
+      "buy": 400,
+      "sell": 160
+    },
+    "minecraft:enchanted_golden_apple": {
+      "name": "附魔金苹果",
+      "category": "food",
+      "buy": 10000,
+      "sell": 4000
+    },
+    "minecraft:bread": {
+      "name": "面包",
+      "category": "food",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:cooked_porkchop": {
+      "name": "熟猪排",
+      "category": "food",
+      "buy": 4,
+      "sell": 1.6
+    },
+    "minecraft:cooked_beef": {
+      "name": "牛排",
+      "category": "food",
+      "buy": 5,
+      "sell": 2
+    },
+    "minecraft:cooked_chicken": {
+      "name": "熟鸡肉",
+      "category": "food",
+      "buy": 4,
+      "sell": 1.6
+    },
+    "minecraft:cooked_mutton": {
+      "name": "熟羊肉",
+      "category": "food",
+      "buy": 4,
+      "sell": 1.6
+    },
+    "minecraft:cooked_cod": {
+      "name": "熟鳕鱼",
+      "category": "food",
+      "buy": 3,
+      "sell": 1.2
+    },
+    "minecraft:cooked_salmon": {
+      "name": "熟鲑鱼",
+      "category": "food",
+      "buy": 3,
+      "sell": 1.2
+    },
+    "minecraft:golden_carrot": {
+      "name": "金萝卜",
+      "category": "food",
+      "buy": 300,
+      "sell": 120
+    },
+    "minecraft:pumpkin_pie": {
+      "name": "南瓜派",
+      "category": "food",
+      "buy": 5,
+      "sell": 2
+    },
+    "minecraft:cake": {
+      "name": "蛋糕",
+      "category": "food",
+      "buy": 10,
+      "sell": 4
+    },
+    "minecraft:cookie": {
+      "name": "曲奇",
+      "category": "food",
+      "buy": 1.6,
+      "sell": 0.64
+    },
+    "minecraft:melon_slice": {
+      "name": "西瓜片",
+      "category": "food",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:sweet_berries": {
+      "name": "甜浆果",
+      "category": "food",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:baked_potato": {
+      "name": "烤马铃薯",
+      "category": "food",
+      "buy": 2.4,
+      "sell": 0.96
+    },
+    "minecraft:mushroom_stew": {
+      "name": "蘑菇煲",
+      "category": "food",
+      "buy": 6,
+      "sell": 2.4
+    },
+    "minecraft:rabbit_stew": {
+      "name": "兔肉煲",
+      "category": "food",
+      "buy": 10,
+      "sell": 4
+    },
+    "minecraft:honey_bottle": {
+      "name": "蜂蜜瓶",
+      "category": "food",
+      "buy": 8,
+      "sell": 3.2
+    },
+    "minecraft:wheat": {
+      "name": "小麦",
+      "category": "farm",
+      "buy": 1.6,
+      "sell": 0.64
+    },
+    "minecraft:wheat_seeds": {
+      "name": "小麦种子",
+      "category": "farm",
+      "buy": 0.6,
+      "sell": 0.24
+    },
+    "minecraft:carrot": {
+      "name": "胡萝卜",
+      "category": "farm",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:potato": {
+      "name": "马铃薯",
+      "category": "farm",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:beetroot": {
+      "name": "甜菜根",
+      "category": "farm",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:pumpkin_seeds": {
+      "name": "南瓜种子",
+      "category": "farm",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:melon_seeds": {
+      "name": "西瓜种子",
+      "category": "farm",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:nether_wart": {
+      "name": "下界疣",
+      "category": "farm",
+      "buy": 4,
+      "sell": 1.6
+    },
+    "minecraft:sugar_cane": {
+      "name": "甘蔗",
+      "category": "farm",
+      "buy": 1.6,
+      "sell": 0.64
+    },
+    "minecraft:cocoa_beans": {
+      "name": "可可豆",
+      "category": "farm",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:bamboo": {
+      "name": "竹子",
+      "category": "farm",
+      "buy": 0.8,
+      "sell": 0.32
+    },
+    "minecraft:blaze_rod": {
+      "name": "烈焰棒",
+      "category": "brew",
+      "buy": 60,
+      "sell": 24
+    },
+    "minecraft:blaze_powder": {
+      "name": "烈焰粉",
+      "category": "brew",
+      "buy": 30,
+      "sell": 12
+    },
+    "minecraft:ghast_tear": {
+      "name": "恶魂之泪",
+      "category": "brew",
+      "buy": 100,
+      "sell": 40
+    },
+    "minecraft:magma_cream": {
+      "name": "岩浆膏",
+      "category": "brew",
+      "buy": 20,
+      "sell": 8
+    },
+    "minecraft:fermented_spider_eye": {
+      "name": "发酵蛛眼",
+      "category": "brew",
+      "buy": 6,
+      "sell": 2.4
+    },
+    "minecraft:spider_eye": {
+      "name": "蜘蛛眼",
+      "category": "brew",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:glass_bottle": {
+      "name": "玻璃瓶",
+      "category": "brew",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:brewing_stand": {
+      "name": "酿造台",
+      "category": "brew",
+      "buy": 100,
+      "sell": 40
+    },
+    "minecraft:cauldron": {
+      "name": "炼药锅",
+      "category": "brew",
+      "buy": 80,
+      "sell": 32
+    },
+    "minecraft:dragon_breath": {
+      "name": "龙息",
+      "category": "brew",
+      "buy": 1000,
+      "sell": 400
+    },
+    "minecraft:redstone_torch": {
+      "name": "红石火把",
+      "category": "redstone",
+      "buy": 10,
+      "sell": 4
+    },
+    "minecraft:repeater": {
+      "name": "中继器",
+      "category": "redstone",
+      "buy": 16,
+      "sell": 6.4
+    },
+    "minecraft:comparator": {
+      "name": "比较器",
+      "category": "redstone",
+      "buy": 24,
+      "sell": 9.6
+    },
+    "minecraft:piston": {
+      "name": "活塞",
+      "category": "redstone",
+      "buy": 30,
+      "sell": 12
+    },
+    "minecraft:sticky_piston": {
+      "name": "黏性活塞",
+      "category": "redstone",
+      "buy": 50,
+      "sell": 20
+    },
+    "minecraft:observer": {
+      "name": "侦测器",
+      "category": "redstone",
+      "buy": 40,
+      "sell": 16
+    },
+    "minecraft:hopper": {
+      "name": "漏斗",
+      "category": "redstone",
+      "buy": 100,
+      "sell": 40
+    },
+    "minecraft:dispenser": {
+      "name": "发射器",
+      "category": "redstone",
+      "buy": 40,
+      "sell": 16
+    },
+    "minecraft:dropper": {
+      "name": "投掷器",
+      "category": "redstone",
+      "buy": 30,
+      "sell": 12
+    },
+    "minecraft:noteblock": {
+      "name": "音符盒",
+      "category": "redstone",
+      "buy": 20,
+      "sell": 8
+    },
+    "minecraft:tnt": {
+      "name": "TNT",
+      "category": "redstone",
+      "buy": 60,
+      "sell": 24
+    },
+    "minecraft:lever": {
+      "name": "拉杆",
+      "category": "redstone",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:stone_button": {
+      "name": "石按钮",
+      "category": "redstone",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:oak_button": {
+      "name": "橡木按钮",
+      "category": "redstone",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:redstone_lamp": {
+      "name": "红石灯",
+      "category": "redstone",
+      "buy": 40,
+      "sell": 16
+    },
+    "minecraft:dirt": {
+      "name": "泥土",
+      "category": "building",
+      "buy": 0.2,
+      "sell": 0.08
+    },
+    "minecraft:stone": {
+      "name": "石头",
+      "category": "building",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:cobblestone": {
+      "name": "圆石",
+      "category": "building",
+      "buy": 0.6,
+      "sell": 0.24
+    },
+    "minecraft:stone_bricks": {
+      "name": "石砖",
+      "category": "building",
+      "buy": 1.6,
+      "sell": 0.64
+    },
+    "minecraft:oak_planks": {
+      "name": "橡木木板",
+      "category": "building",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:spruce_planks": {
+      "name": "云杉木板",
+      "category": "building",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:birch_planks": {
+      "name": "白桦木板",
+      "category": "building",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:oak_log": {
+      "name": "橡木原木",
+      "category": "building",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:glass": {
+      "name": "玻璃",
+      "category": "building",
+      "buy": 1.6,
+      "sell": 0.64
+    },
+    "minecraft:sand": {
+      "name": "沙子",
+      "category": "building",
+      "buy": 0.6,
+      "sell": 0.24
+    },
+    "minecraft:sandstone": {
+      "name": "砂岩",
+      "category": "building",
+      "buy": 1.6,
+      "sell": 0.64
+    },
+    "minecraft:bricks": {
+      "name": "红砖块",
+      "category": "building",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:clay_ball": {
+      "name": "黏土球",
+      "category": "building",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:nether_bricks": {
+      "name": "下界砖块",
+      "category": "building",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:quartz_block": {
+      "name": "石英块",
+      "category": "building",
+      "buy": 72,
+      "sell": 28.8
+    },
+    "minecraft:purpur_block": {
+      "name": "紫珀块",
+      "category": "building",
+      "buy": 6,
+      "sell": 2.4
+    },
+    "minecraft:deepslate": {
+      "name": "深板岩",
+      "category": "building",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:torch": {
+      "name": "火把",
+      "category": "deco",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:lantern": {
+      "name": "灯笼",
+      "category": "deco",
+      "buy": 10,
+      "sell": 4
+    },
+    "minecraft:soul_lantern": {
+      "name": "灵魂灯笼",
+      "category": "deco",
+      "buy": 10,
+      "sell": 4
+    },
+    "minecraft:campfire": {
+      "name": "营火",
+      "category": "deco",
+      "buy": 16,
+      "sell": 6.4
+    },
+    "minecraft:bone_meal": {
+      "name": "骨粉",
+      "category": "deco",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:ink_sac": {
+      "name": "墨囊",
+      "category": "deco",
+      "buy": 1.6,
+      "sell": 0.64
+    },
+    "minecraft:glowstone_dust": {
+      "name": "荧石粉",
+      "category": "deco",
+      "buy": 4,
+      "sell": 1.6
+    },
+    "minecraft:glow_ink_sac": {
+      "name": "发光墨囊",
+      "category": "deco",
+      "buy": 8,
+      "sell": 3.2
+    },
+    "minecraft:string": {
+      "name": "线",
+      "category": "deco",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:feather": {
+      "name": "羽毛",
+      "category": "deco",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:leather": {
+      "name": "皮革",
+      "category": "deco",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:slime_ball": {
+      "name": "黏液球",
+      "category": "deco",
+      "buy": 4,
+      "sell": 1.6
+    },
+    "minecraft:egg": {
+      "name": "鸡蛋",
+      "category": "deco",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:arrow": {
+      "name": "箭",
+      "category": "deco",
+      "buy": 0.6,
+      "sell": 0.24
+    },
+    "minecraft:bucket": {
+      "name": "桶",
+      "category": "deco",
+      "buy": 20,
+      "sell": 8
+    },
+    "minecraft:glowstone": {
+      "name": "荧石",
+      "category": "deco",
+      "buy": 16,
+      "sell": 6.4
+    },
+    "minecraft:ender_pearl": {
+      "name": "末影珍珠",
+      "category": "rare",
+      "buy": 40,
+      "sell": 16
+    },
+    "minecraft:ender_eye": {
+      "name": "末影之眼",
+      "category": "rare",
+      "buy": 80,
+      "sell": 32
+    },
+    "minecraft:nether_star": {
+      "name": "下界之星",
+      "category": "rare",
+      "buy": 6000,
+      "sell": 2400
+    },
+    "minecraft:totem_of_undying": {
+      "name": "不死图腾",
+      "category": "rare",
+      "buy": 10000,
+      "sell": 4000
+    },
+    "minecraft:experience_bottle": {
+      "name": "附魔之瓶",
+      "category": "rare",
+      "buy": 10,
+      "sell": 4
+    },
+    "minecraft:name_tag": {
+      "name": "命名牌",
+      "category": "rare",
+      "buy": 100,
+      "sell": 40
+    },
+    "minecraft:lead": {
+      "name": "拴绳",
+      "category": "rare",
+      "buy": 20,
+      "sell": 8
+    },
+    "minecraft:saddle": {
+      "name": "鞍",
+      "category": "rare",
+      "buy": 60,
+      "sell": 24
+    },
+    "minecraft:enchanted_book": {
+      "name": "附魔书（基础价）",
+      "category": "rare",
+      "buy": 200,
+      "sell": 80
+    },
+    "minecraft:firework_rocket": {
+      "name": "烟花火箭",
+      "category": "rare",
+      "buy": 4,
+      "sell": 1.6
+    },
+    "minecraft:banner": {
+      "name": "旗帜",
+      "category": "rare",
+      "buy": 10,
+      "sell": 4
+    },
+    "minecraft:shulker_shell": {
+      "name": "潜影壳",
+      "category": "rare",
+      "buy": 400,
+      "sell": 160
+    },
+    "minecraft:prismarine_shard": {
+      "name": "海晶碎片",
+      "category": "ocean",
+      "buy": 6,
+      "sell": 2.4
+    },
+    "minecraft:prismarine_crystals": {
+      "name": "海晶砂粒",
+      "category": "ocean",
+      "buy": 16,
+      "sell": 6.4
+    },
+    "minecraft:nautilus_shell": {
+      "name": "鹦鹉螺壳",
+      "category": "ocean",
+      "buy": 200,
+      "sell": 80
+    },
+    "minecraft:heart_of_the_sea": {
+      "name": "海洋之心",
+      "category": "ocean",
+      "buy": 6000,
+      "sell": 2400
+    },
+    "minecraft:scute": {
+      "name": "鳞甲",
+      "category": "ocean",
+      "buy": 40,
+      "sell": 16
+    },
+    "minecraft:soul_sand": {
+      "name": "灵魂沙",
+      "category": "nether",
+      "buy": 3,
+      "sell": 1.2
+    },
+    "minecraft:netherrack": {
+      "name": "下界岩",
+      "category": "nether",
+      "buy": 0.2,
+      "sell": 0.08
+    },
+    "minecraft:basalt": {
+      "name": "玄武岩",
+      "category": "nether",
+      "buy": 1,
+      "sell": 0.4
+    },
+    "minecraft:blackstone": {
+      "name": "黑石",
+      "category": "nether",
+      "buy": 1.6,
+      "sell": 0.64
+    },
+    "minecraft:respawn_anchor": {
+      "name": "重生锚",
+      "category": "nether",
+      "buy": 2400,
+      "sell": 960
+    },
+    "minecraft:end_stone": {
+      "name": "末地石",
+      "category": "end",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:chorus_fruit": {
+      "name": "紫颂果",
+      "category": "end",
+      "buy": 3,
+      "sell": 1.2
+    },
+    "minecraft:ender_chest": {
+      "name": "末影箱",
+      "category": "end",
+      "buy": 300,
+      "sell": 120
+    },
+    "minecraft:end_rod": {
+      "name": "末地烛",
+      "category": "end",
+      "buy": 6,
+      "sell": 2.4
+    },
+    "minecraft:shulker_box": {
+      "name": "潜影盒",
+      "category": "end",
+      "buy": 500,
+      "sell": 200
+    },
+    "minecraft:popped_chorus_fruit": {
+      "name": "爆裂紫颂果",
+      "category": "end",
+      "buy": 4,
+      "sell": 1.6
+    },
+    "minecraft:black_dye": {
+      "name": "黑色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:red_dye": {
+      "name": "红色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:green_dye": {
+      "name": "绿色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:brown_dye": {
+      "name": "棕色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:blue_dye": {
+      "name": "蓝色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:yellow_dye": {
+      "name": "黄色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:white_dye": {
+      "name": "白色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:pink_dye": {
+      "name": "粉红染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:orange_dye": {
+      "name": "橙色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:light_blue_dye": {
+      "name": "淡蓝色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:magenta_dye": {
+      "name": "品红色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:lime_dye": {
+      "name": "黄绿色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:cyan_dye": {
+      "name": "青色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:purple_dye": {
+      "name": "紫色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:light_gray_dye": {
+      "name": "淡灰色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:gray_dye": {
+      "name": "灰色染料",
+      "category": "dye",
+      "buy": 2,
+      "sell": 0.8
+    },
+    "minecraft:shroomlight": {
+      "name": "菌光体",
+      "category": "nether",
+      "buy": 8,
+      "sell": 3.2
+    },
+    "minecraft:sea_lantern": {
+      "name": "海晶灯",
+      "category": "ocean",
+      "buy": 40,
+      "sell": 16
+    }
+  }
+}
